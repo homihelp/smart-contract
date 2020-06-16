@@ -1,5 +1,6 @@
 <?php
 
+/* Note: File is Developed by Dr. Rahul Sharma  */
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, "https://api.etherscan.io/api?module=stats&action=tokensupply&contractaddress=0xCa208BfD69ae6D2667f1FCbE681BAe12767c0078&apikey=<!-- Homihelp Etherscan Verified API For Access -->"); //ETHERSCAN MAX SUPPLLY API
